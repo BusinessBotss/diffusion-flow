@@ -8,47 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Forest theme - dark green background with white surfaces */
-    --background: 149 73% 12%; /* Forest green #0E3B2E */
-    --foreground: 0 0% 100%; /* White text */
+    /* Asian zen theme - clean white with jade green accents */
+    --background: 0 0% 98%; /* Soft white background */
+    --foreground: 158 35% 15%; /* Deep jade text */
 
-    /* Card surfaces - white with subtle green tint */
-    --card: 0 0% 98%;
-    --card-foreground: 149 73% 12%;
+    /* Card surfaces - pure white with subtle shadows */
+    --card: 0 0% 100%;
+    --card-foreground: 158 35% 15%;
 
-    --popover: 0 0% 98%;
-    --popover-foreground: 149 73% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 158 35% 15%;
 
-    /* Primary - deep forest green */
-    --primary: 149 73% 12%;
+    /* Primary - bamboo jade green */
+    --primary: 158 45% 25%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - soft lime accent */
-    --secondary: 85 82% 85%;
-    --secondary-foreground: 149 73% 12%;
+    /* Secondary - soft mint accent */
+    --secondary: 158 25% 92%;
+    --secondary-foreground: 158 45% 25%;
 
-    /* Muted - subtle greens */
-    --muted: 149 25% 90%;
-    --muted-foreground: 149 35% 35%;
+    /* Muted - very light jade */
+    --muted: 158 15% 95%;
+    --muted-foreground: 158 25% 45%;
 
-    /* Accent - bright lime for focus states */
-    --accent: 85 82% 75%;
-    --accent-foreground: 149 73% 12%;
+    /* Accent - vibrant jade for focus */
+    --accent: 158 55% 35%;
+    --accent-foreground: 0 0% 100%;
 
-    /* Status colors */
-    --success: 85 82% 65%;
-    --success-foreground: 149 73% 12%;
+    /* Status colors with asian harmony */
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
     
-    --warning: 43 96% 68%;
-    --warning-foreground: 149 73% 12%;
+    --warning: 35 85% 55%;
+    --warning-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    /* Borders and inputs */
-    --border: 149 25% 85%;
+    /* Borders and inputs - minimal jade lines */
+    --border: 158 20% 88%;
     --input: 0 0% 100%;
-    --ring: 85 82% 75%;
+    --ring: 158 55% 35%;
 
     /* Smooth radius for cards */
     --radius: 1rem;
@@ -120,13 +120,13 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Card elevation system */
+  /* Card elevation system - asian inspired shadows */
   .card-shadow {
-    @apply shadow-[0_4px_12px_rgba(14,59,46,0.08)];
+    @apply shadow-[0_2px_8px_rgba(0,0,0,0.04),0_1px_4px_rgba(38,77,64,0.06)];
   }
   
   .card-shadow-lg {
-    @apply shadow-[0_8px_24px_rgba(14,59,46,0.12)];
+    @apply shadow-[0_4px_16px_rgba(0,0,0,0.06),0_2px_8px_rgba(38,77,64,0.08)];
   }
 
   /* Micro-transitions */
